@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100vh;
+
+  background-color: #282c35;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+#sidebar {
+  background-color: #1a1c22;
+  padding: 0.5rem;
+  color: white;
+  width: 4vw;
+  height: -webkit-fill-available;
+
+  font-weight: 500;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#sidebar img {
+  width: 70%;
+  height: auto;
+  margin: 0;
+}
+
+#sidebar a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sidebar a:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+#sidebar #home-icon {
+  opacity: 0.5;
+}
+
+#sidebar #home-icon:hover {
+  opacity: 1;
+}
+
+#page-content {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.header {
+  background-color: #1a1c22;
+  padding: 1rem 2rem;
+  color: white;
+  width: -webkit-fill-available;
+
+  font-weight: 500;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h1 {
+  font-size: 1.75rem;
+}
+
+.table-wrapper {
+  margin: 2rem 3rem;
+}
+
+#group-expenses-table {
+  width: 100%;
+  color: white;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+#group-expenses-table .table-header,
+#group-expenses-table .table-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+#group-expenses-table .table-header {
+  font-weight: 600;
+  padding: 0 0.5rem;
+  font-size: 1rem;
+}
+
+#group-expenses-table .table-row {
+  background-color: #1a1c22;
+  margin: 0.25rem 0;
+  border-radius: 4px;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+}
