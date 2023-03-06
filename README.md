@@ -97,7 +97,7 @@ Em que momento o método constructor é chamado em uma classe?
 
 É chamado quando chamamos um new Class(), nesse momento a instância da classe é criada e inicializada de acordo com como o construtor foi estruturado.
 
-## Exercício 6 [ ]
+## Exercício 6 [x]
 
 Crie uma nova página na aplicação para que as despesas em grupo sejam exibidas.
 
@@ -123,7 +123,7 @@ Esta página deve atender aos seguintes requisitos:
 
 1. Por enquanto use um array com dados fictícios, o cadastro de valores será contruído na próxima tarefa.
 
-## Exercício 7 [ ]
+## Exercício 7 [x]
 
 Crie um botão para exibir um modal para cadastro de despesas em grupo. Ao clicar no botão um modal deve ser aberto (conforme ocorre atualmente no sistema para cadastro de despesas individuais).
 
@@ -137,11 +137,11 @@ Abaixo do formulário deve haver um botão “Adicionar”, que ao ser clicado d
 
 ‌O cálculo do valor parcial deve ser feito na próxima tarefa.
 
-## Exercício 8 [ ]
+## Exercício 8 [x]
 
 No clique do botão “Adicionar” você adicionou a despesa a listagem sem o cálculo do valor parcial. Mas, como você tem o valor total e o número de pessoas que irão dividir a despesa calcule o valor parcial (a parte de cada um)
 
-## Exercício 9 [ ]
+## Exercício 9 [x]
 
 Crie um menu, ou botão para que o usuário possa navegar entre as despesas individuais e em grupo. Não esqueça de pensar nos dois caminhos:
 
@@ -150,6 +150,6 @@ Crie um menu, ou botão para que o usuário possa navegar entre as despesas indi
 
 Use sua criatividade no layout.
 
-## Exercício 10 [ ]
+## Exercício 10 [x]
 
 Sempre que uma despesa em grupo for adicionada adicione um alert para que o usuário seja notificado de que a ação dele funcionou.
